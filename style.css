@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #f8fafc 0%, #e9ecef 100%);
+    color: #222;
+    min-height: 100vh;
+}
+
+header {
+    background: #22223b;
+    color: #fff;
+    padding: 32px 10%;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(34, 34, 59, 0.08);
+    border-radius: 0 0 24px 24px;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin: 25px 0 0 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: #4ea8de;
+    border-bottom: 2px solid #4ea8de;
+}
+
+main.home {
+    padding: 40px 10%;
+}
+
+section {
+    margin: 30px 0;
+    padding: 32px 28px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(34, 34, 59, 0.06);
+    transition: box-shadow 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 8px 32px rgba(34, 34, 59, 0.12);
+}
+
+h1 {
+    color: #22223b;
+    margin-bottom: 18px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #4ea8de;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+ul {
+    margin: 12px 0 0 18px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+.project {
+    margin-bottom: 24px;
+    padding: 18px 16px;
+    background: #f8fafc;
+    border-left: 5px solid #4ea8de;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(34, 34, 59, 0.04);
+}
+
+.project h2 {
+    color: #22223b;
+}
+
+.project a {
+    color: #4ea8de;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.project a:hover {
+    color: #22223b;
+}
+
+footer {
+    text-align: center;
+    padding: 22px 0;
+    background: #22223b;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+    border-radius: 0 0 18px 18px;
+}
